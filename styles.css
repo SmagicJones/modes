@@ -1,0 +1,62 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box-screen {
+  height: 100vh;
+  background: rebeccapurple;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box-screen .box {
+  width: 80%;
+  height: 80%;
+  background: white;
+  border-radius: 1em;
+}
+
+.display {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10%;
+  width: 100%;
+  height: 100%;
+}
+
+.display .interval {
+  font-weight: bold;
+  font-size: 3rem;
+}
+
+.button-wrapper {
+  padding: 1em;
+}
+
+.button-wrapper button {
+  padding: 1em;
+  background: rebeccapurple;
+  color: white;
+  border-radius: 1em;
+}
+
+.button-wrapper button:hover {
+  background: white;
+  color: rebeccapurple;
+}
