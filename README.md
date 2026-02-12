@@ -1,5 +1,7 @@
 # Musical Modes Cycler
 
+🎵 **[Try it live](https://smagicjones.github.io/modes/)**
+
 A simple interactive tool to visualize and learn the interval patterns of musical modes.
 
 ## What It Does
